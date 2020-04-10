@@ -1,0 +1,14 @@
+.container {
+    display: flex;
+    justify-content: space-between;
+}
+
+.navigation{
+    display: flex;
+    flex-direction: column;
+}
+
+.right-container{
+    display: flex;
+    flex-direction: row;
+}

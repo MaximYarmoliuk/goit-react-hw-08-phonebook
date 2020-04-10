@@ -1,0 +1,16 @@
+.container {
+  display: flex;
+  flex-direction: column;
+}
+
+.link {
+  display: inline-block;
+  text-decoration: none;
+  font-weight: 700;
+  color: #2a363b;
+}
+
+.activeLink {
+  color: #e84a5f;
+  fill: #e84a5f;
+}

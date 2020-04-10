@@ -1,0 +1,19 @@
+.item {
+  display: -webkit-box;
+  display: flex;
+  -webkit-box-pack: justify;
+  justify-content: space-between;
+  -webkit-box-align: center;
+  align-items: center;
+  padding-left: 10px;
+  width: 400px;
+  border: 5px solid transparent;
+  border-image: linear-gradient(to right, transparent 0%, #adf2f7 100%);
+  border-image-slice: 1;
+  margin-bottom: 5px;
+}
+
+.button {
+  cursor: pointer;
+  fill: rgb(1, 1, 128)
+}
